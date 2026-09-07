@@ -3,7 +3,10 @@
 An end-to-end test automation framework built with **Playwright, TypeScript, and GitHub Actions** for testing the SauceDemo e-commerce application.
 
 The project demonstrates practical **Software Quality Assurance (SQA)** practices including Page Object Model (POM), reusable test components, functional testing, assertions, test tagging, failure screenshots, and CI automation.
+![Playwright Tests](https://github.com/mahady13/saucedemo-e2e-test-automation/actions/workflows/playwright.yml/badge.svg)
+SauceDemo E2E Test Automation Framework
 
+[GitHub Actions badge]
 ---
 
 ## 🎯 Project Objective
@@ -231,7 +234,7 @@ This provides visual evidence for debugging failed test cases.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/saucedemo-e2e-test-automation.git
+git clone https://github.com/mahady13/saucedemo-e2e-test-automation.git
 ```
 
 Navigate to the project:
@@ -279,6 +282,22 @@ Run tests in debug mode:
 ```bash
 npm run test:debug
 ```
+
+---
+
+## 🧾 Test Scenarios
+
+| ID | Scenario | Type | Priority |
+|---|---|---|---|
+| AUTH-001 | Valid user login | Positive | High |
+| AUTH-002 | Locked user login | Negative | High |
+| PROD-001 | Sort products low to high | Functional | Medium |
+| CART-001 | Add product to cart | Functional | High |
+| CART-002 | Verify cart item | Functional | High |
+| CHK-001 | Navigate to checkout | Functional | High |
+| CHK-002 | Submit checkout information | Functional | High |
+| CHK-003 | Verify checkout overview | Functional | High |
+| CHK-004 | Complete purchase | E2E | Critical |
 
 ---
 
