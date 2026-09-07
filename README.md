@@ -92,8 +92,6 @@ saucedemo-e2e-test-automation/
 │   ├── shopping.spec.ts
 │   └── checkout.spec.ts
 │
-├── screenshots/
-│
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
