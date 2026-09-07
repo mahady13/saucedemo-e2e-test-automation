@@ -15,7 +15,7 @@ const TEST_DATA = {
     }
 };
 
-test.describe("Buying a backpack from website",()=>{
+test.describe("Product purchase flow",()=>{
 
     test.beforeEach("login to website",async ({page})=>{
         const login=new LoginPage(page);
