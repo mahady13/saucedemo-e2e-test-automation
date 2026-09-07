@@ -3,10 +3,6 @@
 An end-to-end test automation framework built with **Playwright, TypeScript, and GitHub Actions** for testing the SauceDemo e-commerce application.
 
 The project demonstrates practical **Software Quality Assurance (SQA)** practices including Page Object Model (POM), reusable test components, functional testing, assertions, test tagging, failure screenshots, and CI automation.
-![Playwright Tests](https://github.com/mahady13/saucedemo-e2e-test-automation/actions/workflows/playwright.yml/badge.svg)
-SauceDemo E2E Test Automation Framework
-
-[GitHub Actions badge]
 ---
 
 ## 🎯 Project Objective
